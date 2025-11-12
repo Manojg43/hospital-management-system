@@ -1,0 +1,35 @@
+# Django Hospital Management System - Requirements
+
+# Core Django
+Django>=4.2,<5.0
+django-crispy-forms>=2.0
+crispy-bootstrap4>=2.0
+
+# Database
+psycopg2-binary>=2.9  # PostgreSQL adapter (optional, can use SQLite for development)
+
+# Image handling
+Pillow>=10.0
+
+# Date and time
+python-dateutil>=2.8
+
+# Authentication & Security
+django-allauth>=0.57
+
+# API (if needed for future)
+djangorestframework>=3.14
+
+# Admin enhancements
+django-import-export>=3.3
+
+# Reporting
+reportlab>=4.0  # For PDF generation
+xlsxwriter>=3.1  # For Excel exports
+
+# AI/ML (for future AI features)
+# openai>=1.0  # Uncomment when implementing AI features
+# langchain>=0.1  # Uncomment for advanced AI integration
+
+# Development tools
+python-decouple>=3.8  # For environment variables
